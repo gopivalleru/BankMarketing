@@ -1,5 +1,29 @@
-# BankMarketing
 
+<!-- TOC -->
+
+- [The Client Will Subscribe to a Term Deposit or Not?](#the-client-will-subscribe-to-a-term-deposit-or-not)
+  - [Source](#source)
+  - [Prerequisites](#prerequisites)
+    - [Tools and Environment](#tools-and-environment)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Understanding the Business Problem](#understanding-the-business-problem)
+  - [Data Overview](#data-overview)
+  - [Numerical Features Description](#numerical-features-description)
+  - [Categorical Features Description](#categorical-features-description)
+  - [Correlation Matrix](#correlation-matrix)
+  - [Count of Term Deposits Subscriptions](#count-of-term-deposits-subscriptions)
+  - [Boxplot of Numerical Features vs Term Deposit Subscription](#boxplot-of-numerical-features-vs-term-deposit-subscription)
+  - [Count Plot of Categorical Features vs Term Deposit Subscription](#count-plot-of-categorical-features-vs-term-deposit-subscription)
+- [Data Pre-Processing](#data-pre-processing)
+- [Train and Test Split](#train-and-test-split)
+- [Model Building](#model-building)
+  - [Model Performance](#model-performance)
+- [Conclusion](#conclusion)
+  - [Feature Importance](#feature-importance)
+- [Recommendations](#recommendations)
+- [Next Steps](#next-steps)
+
+<!-- /TOC -->
 ## The Client Will Subscribe to a Term Deposit or Not?
 
 This project investigates a dataset related to direct marketing campaigns of a Portuguese banking institution. Often, multiple contacts with the same client were required to assess if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The classification goal is to predict if the client will subscribe (yes/no) to a term deposit (variable y).
