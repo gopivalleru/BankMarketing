@@ -191,14 +191,19 @@ The best performing model is **Logistic Regression with default hyperparameters*
 ## Recommendations
 
 1. **Focus on Key Months**: Marketing campaigns should be intensified in March, December, October, November, and September as these months show a higher likelihood of term deposits.
-2. **Optimize Contact Type**: Prioritize cellular contacts, which have a higher success rate.
-3. **Leverage Previous Campaign Outcomes**: Clients with 'success' or 'nonexistent' outcomes in previous campaigns are more likely to subscribe.
-4. **Consider Economic Indicators**: Monitor the consumer price index and consumer confidence index as they are significant predictors.
+2. **Leverage Previous Campaign Outcomes**: Clients with 'success' or 'nonexistent' outcomes in previous campaigns are more likely to subscribe.
+3. **Optimize Contact Type**: Prioritize cellular contacts, which have a higher success rate.
+4. **Consider Economic Indicators**: Monitor the consumer price index and employment variation rate as they are significant predictors.
 
 ## Next Steps
 
 1. Collect more data to enhance model performance.
 2. Incorporate additional features to capture more predictive power.
 3. Experiment with advanced algorithms and ensemble methods like Random Forest, Gradient Boosting, etc.
-4. Explore deep learning techniques for potential improvements.
-5. Implement techniques to handle class imbalance more effectively.
+4. Implement techniques to handle class imbalance more effectively.
+5. Assess the model's performance on the full dataset.
+6. Automate the data pipeline and model training process for real-time predictions.
+7. Implement the model in a real-world scenario and monitor its performance.
+8. Keep the model updated with new data and retrain it periodically.
+9. Conduct a cost-benefit analysis to determine the optimal threshold for the model.
+
