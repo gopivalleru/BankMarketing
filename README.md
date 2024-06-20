@@ -193,6 +193,7 @@ However, when calculating the ROC AUC scores, both Logistic Regression with defa
 | Decision Tree Grid     | 0.616450      |
 | SVC Grid               | 0.638504      |
 
+
 **ROC AUC Scores**
 
 ![ROC AUC](/images/ROC_AUC.png)
@@ -201,6 +202,10 @@ However, when calculating the ROC AUC scores, both Logistic Regression with defa
 ## Conclusion
 
 The best performing model is **Logistic Regression with default hyperparameters**, achieving an F1 score of 0.38 and an accuracy of 90.87%. This model can effectively predict whether a client will subscribe to a term deposit.
+
+**Logistic Regression with default hyperparameters confusion matrix**
+
+![Logistic Regression with default hyperparameters confusion matrix](/images/confusion_matrix_Logistic.png)
 
 ### Feature Importance
 
