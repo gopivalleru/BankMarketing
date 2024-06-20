@@ -194,7 +194,9 @@ However, when calculating the ROC AUC scores, both Logistic Regression with defa
 | SVC Grid               | 0.638504      |
 
 **ROC AUC Scores**
+
 ![ROC AUC](/images/ROC_AUC.png)
+
 
 ## Conclusion
 
