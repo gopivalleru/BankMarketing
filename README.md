@@ -150,15 +150,34 @@ Out of all the models evaluated, Logistic Regression with default hyperparameter
 Below are the performance metrics presented in bar plots for all the models:
 
 **Training Time**
+
+* SVC has the longest training time at 1.560230 seconds, making it the least efficient in terms of training speed.
+* Logistic Regression follows with a training time of around 0.52 seconds, which is relatively moderate.
+* KNN and Decision Tree models are much faster, with training times of 0.020142 and 0.040505 seconds, respectively, indicating their efficiency in training.
+
 ![Training time](/images/models_comp_by_train_time.png)
 
 **Accuracy**
+
+* Decision Tree shows the highest training accuracy at 0.999306 but significantly drops in test accuracy to 0.828479, indicating overfitting.
+* Logistic Regression and SVC have similar training and test accuracies (Logistic: 0.902879 train, 0.908576 test; SVC: 0.910163 train, 0.902913 test), suggesting good generalization.
+* KNN has a slightly lower test accuracy (0.889968) compared to its training accuracy (0.912591), indicating a moderate generalization capability.
+
 ![Accuracy](/images/models_comp_by_test_accuracy.png)
 
 **F1 Score**
+
+* Decision Tree has the highest training F1 score (0.996825) but a lower test F1 score (0.278912), indicating overfitting.
+* Logistic Regression maintains a reasonable balance with training (0.351852) and test (0.375691) F1 scores, suggesting good generalization.
+* KNN and SVC have relatively lower test F1 scores (KNN: 0.291667, SVC: 0.285714), with KNN showing a significant drop from its training F1 score (0.454545).
+
+
 ![F1 Score](/images/models_comp_by_test_f1.png)
 
+**ROC Curve**
+
 The ROC curves visually indicate that Logistic Regression, Logistic Regression with F1, and KNN with F1 have high AUC values.
+
 ![ROC Curve](/images/roc_curve.png)
 
 However, when calculating the ROC AUC scores, both Logistic Regression with default hyperparameters and Logistic Grid achieved the highest scores of 0.757628 and 0.758126, respectively. Although these two models are very close in performance, Logistic Regression with default hyperparameters has a higher F1 score.
